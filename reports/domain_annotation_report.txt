@@ -1,0 +1,36 @@
+DOMAIN ANNOTATION SAMPLE REPORT
+=======================================================
+Total posts: 200
+Annotation completeness: 100%
+Validation: PASSED
+
+LABEL DISTRIBUTION
+-------------------------------------------------------
+politics: 74 (37.0%)
+sport: 54 (27.0%)
+pop_culture: 37 (18.5%)
+other: 10 (5.0%)
+unclear: 28 (14.0%)
+Multi-label posts: 3
+
+SAMPLING QUALITY
+-------------------------------------------------------
+politics: 70/80 (87.5%)
+sport: 52/60 (86.7%)
+pop_culture: 36/60 (60.0%)
+
+Overall matching posts: 158/200
+Overall matching rate: 79.0%
+
+CROSS-DOMAIN MATRIX
+-------------------------------------------------------
+politics: politics=70, sport=0, pop_culture=0, other=3, unclear=7
+sport: politics=4, sport=52, pop_culture=1, other=0, unclear=4
+pop_culture: politics=0, sport=2, pop_culture=36, other=7, unclear=17
+
+METHODOLOGICAL NOTES
+-------------------------------------------------------
+A post may belong to more than one topical domain.
+The 'other' and 'unclear' labels are exclusive.
+Sampling match rate is not classifier accuracy.
+This is a stratified sample, not a random sample of all X.

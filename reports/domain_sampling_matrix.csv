@@ -1,0 +1,4 @@
+﻿sampling_stratum,total,matches,match_rate,politics,sport,pop_culture,other,unclear
+politics,80,70,0.8750,70,0,0,3,7
+sport,60,52,0.8667,4,52,1,0,4
+pop_culture,60,36,0.6000,0,2,36,7,17

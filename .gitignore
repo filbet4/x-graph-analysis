@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+cookies.json
+scweet_state.db
+*.sqlite
+*.sqlite3
+
+# Local Scweet experiment output
+data/scweet_sample.json
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated thesis artifacts
+data/raw/
+data/processed/
+reports/generated/
+
+# TODO: Add project-specific generated artifacts as the pipeline grows.

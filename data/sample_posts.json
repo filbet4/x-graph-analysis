@@ -1,0 +1,123 @@
+[
+  {
+    "post_id": "post-001",
+    "author": {"user_id": "user-aurora", "username": "aurora_field", "display_name": "Aurora Field", "verified": true},
+    "text": "Mapping conversations as graphs reveals unexpected bridges. #graphresearch #networks",
+    "published_at": "2026-08-01T09:00:00Z",
+    "hashtags": [{"text": "graphresearch", "normalized_text": "graphresearch"}, {"text": "networks", "normalized_text": "networks"}],
+    "mentions": [],
+    "metrics": {"like_count": 42, "repost_count": 8, "reply_count": 5, "quote_count": 2, "view_count": 1200}
+  },
+  {
+    "post_id": "post-002",
+    "author": {"user_id": "user-ben", "username": "ben_vector", "display_name": "Ben Vector"},
+    "text": "The bridge idea is especially useful for finding cross-community discussion. #graphresearch",
+    "published_at": "2026-08-01T09:30:00Z",
+    "hashtags": [{"text": "graphresearch", "normalized_text": "graphresearch"}],
+    "mentions": [],
+    "metrics": {"like_count": 17, "repost_count": 2, "reply_count": 1, "quote_count": 0}
+  },
+  {
+    "post_id": "post-003",
+    "author": {"user_id": "user-clara", "username": "clara_nodes", "display_name": "Clara Nodes"},
+    "text": "A useful starting point for a network notebook. #networks",
+    "published_at": "2026-08-01T10:00:00Z",
+    "hashtags": [{"text": "networks", "normalized_text": "networks"}],
+    "mentions": [],
+    "quoted_post_id": "post-001"
+  },
+  {
+    "post_id": "post-004",
+    "author": {"user_id": "user-diego", "username": "diego_edges", "display_name": "Diego Edges"},
+    "text": "RT: Mapping conversations as graphs reveals unexpected bridges. #graphresearch",
+    "published_at": "2026-08-01T10:20:00Z",
+    "hashtags": [{"text": "graphresearch", "normalized_text": "graphresearch"}],
+    "mentions": [],
+    "reposted_post_id": "post-001",
+    "metrics": {"like_count": 9, "repost_count": 3, "reply_count": 0, "quote_count": 0}
+  },
+  {
+    "post_id": "post-005",
+    "author": {"user_id": "user-elena", "username": "elena_vis", "display_name": "Elena Vis"},
+    "text": "@aurora_field the visual encoding question may be the hardest part.",
+    "published_at": "2026-08-01T11:00:00Z",
+    "hashtags": [],
+    "mentions": [{"user": {"user_id": "user-aurora", "username": "aurora_field", "display_name": "Aurora Field", "verified": true}, "username": "aurora_field"}]
+  },
+  {
+    "post_id": "post-006",
+    "author": {"user_id": "user-felix", "username": "felix_orbit", "display_name": "Felix Orbit"},
+    "text": "A quiet morning is a good time to sketch a research question.",
+    "published_at": "2026-08-01T12:00:00Z"
+  },
+  {
+    "post_id": "post-007",
+    "author": {"user_id": "user-aurora", "username": "aurora_field", "display_name": "Aurora Field", "verified": true},
+    "text": "Community structure can be more informative than individual popularity. #graphresearch #communities",
+    "published_at": "2026-08-02T09:00:00Z",
+    "hashtags": [{"text": "graphresearch", "normalized_text": "graphresearch"}, {"text": "communities", "normalized_text": "communities"}],
+    "metrics": {"like_count": 31, "repost_count": 6, "reply_count": 3, "quote_count": 1}
+  },
+  {
+    "post_id": "post-008",
+    "author": {"user_id": "user-ben", "username": "ben_vector", "display_name": "Ben Vector"},
+    "text": "Exactly. Modularity could give us a useful baseline. #communities",
+    "published_at": "2026-08-02T09:25:00Z",
+    "hashtags": [{"text": "communities", "normalized_text": "communities"}],
+    "reply_to_post_id": "post-007"
+  },
+  {
+    "post_id": "post-009",
+    "author": {"user_id": "user-clara", "username": "clara_nodes", "display_name": "Clara Nodes"},
+    "text": "This is a strong candidate for the methods chapter. #graphresearch",
+    "published_at": "2026-08-02T10:00:00Z",
+    "hashtags": [{"text": "graphresearch", "normalized_text": "graphresearch"}],
+    "quoted_post_id": "post-007"
+  },
+  {
+    "post_id": "post-010",
+    "author": {"user_id": "user-diego", "username": "diego_edges", "display_name": "Diego Edges"},
+    "text": "RT: Community structure can be more informative than individual popularity. #communities",
+    "published_at": "2026-08-02T10:20:00Z",
+    "hashtags": [{"text": "communities", "normalized_text": "communities"}],
+    "reposted_post_id": "post-007"
+  },
+  {
+    "post_id": "post-011",
+    "author": {"user_id": "user-elena", "username": "elena_vis", "display_name": "Elena Vis"},
+    "text": "@ben_vector I would pair modularity with a clear legend for readers.",
+    "published_at": "2026-08-02T11:00:00Z",
+    "mentions": [{"user": {"user_id": "user-ben", "username": "ben_vector", "display_name": "Ben Vector"}, "username": "ben_vector"}]
+  },
+  {
+    "post_id": "post-012",
+    "author": {"user_id": "user-felix", "username": "felix_orbit", "display_name": "Felix Orbit"},
+    "text": "The library shelves are unusually calm today.",
+    "published_at": "2026-08-02T12:00:00Z"
+  },
+  {
+    "post_id": "post-013",
+    "author": {"user_id": "user-greta", "username": "greta_paths", "display_name": "Greta Paths"},
+    "text": "I am collecting examples of temporal networks for a classroom exercise. #temporalgraphs",
+    "published_at": "2026-08-03T08:30:00Z",
+    "hashtags": [{"text": "temporalgraphs", "normalized_text": "temporalgraphs"}],
+    "metrics": {"like_count": 12, "repost_count": 1, "reply_count": 2, "quote_count": 0}
+  },
+  {
+    "post_id": "post-014",
+    "author": {"user_id": "user-hugo", "username": "hugo_layers", "display_name": "Hugo Layers"},
+    "text": "The time dimension changes how we read an interaction graph. #temporalgraphs",
+    "published_at": "2026-08-03T09:15:00Z",
+    "hashtags": [{"text": "temporalgraphs", "normalized_text": "temporalgraphs"}],
+    "mentions": [],
+    "metrics": {"like_count": 7, "repost_count": 1, "reply_count": 0, "quote_count": 1}
+  },
+  {
+    "post_id": "post-015",
+    "author": {"user_id": "user-iris", "username": "iris_signal", "display_name": "Iris Signal"},
+    "text": "Some ideas deserve a page of notes before they become a graph.",
+    "published_at": "2026-08-03T10:00:00Z",
+    "hashtags": [],
+    "mentions": []
+  }
+]
