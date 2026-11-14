@@ -1,0 +1,21 @@
+{
+  "database": "xgraph-expanded",
+  "mode": "dry_run",
+  "source": {
+    "source_posts": 2808,
+    "source_authors": 1568,
+    "source_hashtags": 331,
+    "source_relationships": {
+      "QUOTE": 260,
+      "REPLY": 1314
+    },
+    "mapping_errors": 0,
+    "relationship_targets_may_be_existing_posts": 1428
+  },
+  "before": {
+    "status": "not_queried"
+  },
+  "after": {
+    "status": "not_queried"
+  }
+}

@@ -27,7 +27,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 SOURCE_PATH = (
     PROJECT_ROOT
     / "data"
-    / "scweet_second_hop_targets_2026-10-21_2026-10-27.json"
+    / "scweet_second_hop_requested_ids_2026-10-21_2026-10-27.json"
 )
 
 OUTPUT_PATH = (
@@ -248,7 +248,7 @@ def create_initial_state(
             "created_at": now_iso(),
             "updated_at": now_iso(),
             "source_file": SOURCE_PATH.name,
-            "expansion_depth": 1,
+            "expansion_depth": 2,
             "recursive_expansion": False,
             "batch_size": BATCH_SIZE,
             "reply_target_count": len(
@@ -459,14 +459,17 @@ def main() -> None:
             "SCWEET_AUTH_TOKEN is not set."
         )
 
-    source_data = load_json(
-        SOURCE_PATH
+    source_data = json.loads(
+        SOURCE_PATH.read_text(encoding="utf-8")
     )
 
-    records = source_data.get(
-        "records",
-        []
-    )
+    if not isinstance(source_data, list):
+        raise ValueError("Source must be a list of tweet IDs")
+
+    all_targets = {str(value) for value in source_data}
+    reply_targets = all_targets.copy()
+    quote_targets = set()
+    records = source_data
 
     if not isinstance(records, list):
         raise ValueError(
@@ -478,7 +481,7 @@ def main() -> None:
         reply_targets,
         quote_targets,
         all_targets,
-    ) = find_missing_targets(records)
+    ) = (reply_targets, quote_targets, all_targets)
 
     print("=" * 70)
     print("ONE-HOP TARGET RETRIEVAL")

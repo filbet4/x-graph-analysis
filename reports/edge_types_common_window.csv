@@ -1,0 +1,13 @@
+﻿week,scope,post_count,node_count,relationship_count,edge_count,reply_relationships,reply_edges,quote_relationships,quote_edges,repost_relationships,repost_edges,shared_hashtag_relationships,shared_hashtag_edges,mention_relationships,mention_edges,direct_interaction_edges,shared_hashtag_share_pct
+week1,all,3533,3533,10362,20541,141,141,42,42,0,0,10179,20358,0,0,183,99.11
+week1,politics,1979,1979,623,1139,84,84,23,23,0,0,516,1032,0,0,107,90.61
+week1,sport,1318,1318,9707,19349,48,48,17,17,0,0,9642,19284,0,0,65,99.66
+week1,pop_culture,238,238,11,12,8,8,2,2,0,0,1,2,0,0,10,16.67
+week2,all,2964,2964,929,1702,127,127,29,29,0,0,773,1546,0,0,156,90.83
+week2,politics,2044,2044,198,271,107,107,18,18,0,0,73,146,0,0,125,53.87
+week2,sport,641,641,710,1402,9,9,9,9,0,0,692,1384,0,0,18,98.72
+week2,pop_culture,279,279,15,21,8,8,1,1,0,0,6,12,0,0,9,57.14
+week3,all,2740,2740,4171,8203,100,100,39,39,0,0,4032,8064,0,0,139,98.31
+week3,politics,2002,2002,998,1889,79,79,28,28,0,0,891,1782,0,0,107,94.34
+week3,sport,567,567,3086,6147,16,16,9,9,0,0,3061,6122,0,0,25,99.59
+week3,pop_culture,171,171,15,23,5,5,2,2,0,0,8,16,0,0,7,69.57

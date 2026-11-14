@@ -1,0 +1,752 @@
+{
+  "metadata": {
+    "source": "C:\\x-graph-analysis\\data\\scweet_large_sample_2026-10-21_2026-10-27.json",
+    "post_count": 2808,
+    "published_at_min": "2026-10-21T00:33:22+00:00",
+    "published_at_max": "2026-10-27T23:58:30+00:00",
+    "tn_minus_t0_hours": 24,
+    "reaction_24h_observations_available": false,
+    "reaction_24h_note": "No per-post observed_at snapshot at published_at + 24h was found; historical counters are not used as 24h reactions.",
+    "domain_overlap_post_count": 0,
+    "relationship_semantics": {
+      "REPLY": "direct post reference",
+      "QUOTE": "direct post reference",
+      "REPOST": "direct post reference",
+      "SHARED_HASHTAG": "thematic similarity only"
+    }
+  },
+  "scopes": {
+    "all": {
+      "post_count": 2808,
+      "author_count": 1568,
+      "hashtag_count": 331,
+      "interaction_coverage": {
+        "reply_references": 1314,
+        "quote_references": 260,
+        "repost_references": 0,
+        "missing_reply_targets": 1207,
+        "missing_quote_targets": 221,
+        "missing_repost_targets": 0
+      },
+      "variants": {
+        "heterogeneous": {
+          "node_count": 4707,
+          "edge_count": 3727,
+          "weighted_interaction_count": 3727,
+          "density": 0.00016825317629222007,
+          "isolated_node_count": 0,
+          "weak_component_count": 1361,
+          "largest_weak_component": 845,
+          "strong_component_count": 4707,
+          "largest_strong_component": 1,
+          "degree_mean": 1.5835988952623752,
+          "degree_median": 1,
+          "degree_max": 104,
+          "top_pagerank": [
+            {
+              "node_id": "hashtag:ekstraklasa",
+              "score": 0.0057541665954202615
+            },
+            {
+              "node_id": "hashtag:pograd",
+              "score": 0.0026363184338360486
+            },
+            {
+              "node_id": "hashtag:widgór",
+              "score": 0.0025295099526384942
+            },
+            {
+              "node_id": "post:2114755859859337532",
+              "score": 0.002312229061753135
+            },
+            {
+              "node_id": "hashtag:wisrcz",
+              "score": 0.0021098520388064083
+            },
+            {
+              "node_id": "hashtag:drogazima",
+              "score": 0.0020136208680663465
+            },
+            {
+              "node_id": "hashtag:motzag",
+              "score": 0.0018635170540187297
+            },
+            {
+              "node_id": "hashtag:konfederacja",
+              "score": 0.0018253524183728888
+            },
+            {
+              "node_id": "hashtag:sejm",
+              "score": 0.0017191003157218509
+            },
+            {
+              "node_id": "hashtag:korgks",
+              "score": 0.0015954096177506235
+            }
+          ]
+        },
+        "users": {
+          "node_count": 1568,
+          "edge_count": 114,
+          "weighted_interaction_count": 118,
+          "density": 4.639698891681752e-05,
+          "isolated_node_count": 1398,
+          "weak_component_count": 1457,
+          "largest_weak_component": 13,
+          "strong_component_count": 1565,
+          "largest_strong_component": 2,
+          "degree_mean": 0.14540816326530612,
+          "degree_median": 0.0,
+          "degree_max": 11,
+          "top_pagerank": [
+            {
+              "node_id": "3723185537",
+              "score": 0.006618108800917664
+            },
+            {
+              "node_id": "375146901",
+              "score": 0.006618108800917664
+            },
+            {
+              "node_id": "15877628",
+              "score": 0.005677847927907977
+            },
+            {
+              "node_id": "729348599818158085",
+              "score": 0.0031376296578696497
+            },
+            {
+              "node_id": "387912773",
+              "score": 0.0026295860038619842
+            },
+            {
+              "node_id": "2415691112",
+              "score": 0.0024172030865723415
+            },
+            {
+              "node_id": "3104219584",
+              "score": 0.002121542349854319
+            },
+            {
+              "node_id": "3871687379",
+              "score": 0.0020457159148486743
+            },
+            {
+              "node_id": "1375866815818121217",
+              "score": 0.001781149441433766
+            },
+            {
+              "node_id": "2148827317",
+              "score": 0.0016544715538081808
+            }
+          ]
+        },
+        "posts": {
+          "node_count": 2808,
+          "edge_count": 8346,
+          "weighted_interaction_count": 9212,
+          "density": 0.00105886078454657,
+          "isolated_node_count": 2303,
+          "weak_component_count": 2409,
+          "largest_weak_component": 229,
+          "strong_component_count": 2547,
+          "largest_strong_component": 226,
+          "degree_mean": 5.944444444444445,
+          "degree_median": 0.0,
+          "degree_max": 208,
+          "top_pagerank": [
+            {
+              "node_id": "2114676805009305880",
+              "score": 0.003932123222531253
+            },
+            {
+              "node_id": "2114676992960287074",
+              "score": 0.003932123222531253
+            },
+            {
+              "node_id": "2114099478596645367",
+              "score": 0.0032608558339842024
+            },
+            {
+              "node_id": "2113733684637626557",
+              "score": 0.003180390126507138
+            },
+            {
+              "node_id": "2114019571309105366",
+              "score": 0.0027919164931784857
+            },
+            {
+              "node_id": "2114035470812278981",
+              "score": 0.0027919164931784857
+            },
+            {
+              "node_id": "2113710537540591829",
+              "score": 0.0027043314668755607
+            },
+            {
+              "node_id": "2113697137246802220",
+              "score": 0.002656489260960001
+            },
+            {
+              "node_id": "2113728418248638932",
+              "score": 0.002656489260960001
+            },
+            {
+              "node_id": "2113665650535108916",
+              "score": 0.002507300670251418
+            }
+          ]
+        }
+      }
+    },
+    "politics": {
+      "post_count": 2051,
+      "author_count": 1211,
+      "hashtag_count": 177,
+      "interaction_coverage": {
+        "reply_references": 1044,
+        "quote_references": 209,
+        "repost_references": 0,
+        "missing_reply_targets": 959,
+        "missing_quote_targets": 181,
+        "missing_repost_targets": 0
+      },
+      "variants": {
+        "heterogeneous": {
+          "node_count": 3439,
+          "edge_count": 2531,
+          "weighted_interaction_count": 2531,
+          "density": 0.00021406915609388323,
+          "isolated_node_count": 0,
+          "weak_component_count": 1073,
+          "largest_weak_component": 480,
+          "strong_component_count": 3439,
+          "largest_strong_component": 1,
+          "degree_mean": 1.471939517301541,
+          "degree_median": 1,
+          "degree_max": 78,
+          "top_pagerank": [
+            {
+              "node_id": "post:2114755859859337532",
+              "score": 0.0031889727419438375
+            },
+            {
+              "node_id": "hashtag:drogazima",
+              "score": 0.0027784003539996598
+            },
+            {
+              "node_id": "hashtag:konfederacja",
+              "score": 0.0024789063280992256
+            },
+            {
+              "node_id": "hashtag:sejm",
+              "score": 0.0023716349956168304
+            },
+            {
+              "node_id": "post:2112792863176069517",
+              "score": 0.0018174977690785818
+            },
+            {
+              "node_id": "post:2113581304163836382",
+              "score": 0.0016901888777386684
+            },
+            {
+              "node_id": "post:2112917315088196005",
+              "score": 0.0015721484540398333
+            },
+            {
+              "node_id": "post:2114771450234089873",
+              "score": 0.0015658383752202058
+            },
+            {
+              "node_id": "hashtag:tiktok",
+              "score": 0.0015131282421904156
+            },
+            {
+              "node_id": "post:2112912117598949608",
+              "score": 0.0013113888236754505
+            }
+          ]
+        },
+        "users": {
+          "node_count": 1211,
+          "edge_count": 97,
+          "weighted_interaction_count": 101,
+          "density": 6.61975964130457e-05,
+          "isolated_node_count": 1071,
+          "weak_component_count": 1116,
+          "largest_weak_component": 13,
+          "strong_component_count": 1209,
+          "largest_strong_component": 2,
+          "degree_mean": 0.16019818331957061,
+          "degree_median": 0,
+          "degree_max": 11,
+          "top_pagerank": [
+            {
+              "node_id": "3723185537",
+              "score": 0.008523767372850575
+            },
+            {
+              "node_id": "375146901",
+              "score": 0.008523767372850575
+            },
+            {
+              "node_id": "15877628",
+              "score": 0.007312883632228366
+            },
+            {
+              "node_id": "729348599818158085",
+              "score": 0.004041195885202772
+            },
+            {
+              "node_id": "387912773",
+              "score": 0.0033868583357976553
+            },
+            {
+              "node_id": "3104219584",
+              "score": 0.0027325207863925366
+            },
+            {
+              "node_id": "3871687379",
+              "score": 0.0026347294282045093
+            },
+            {
+              "node_id": "1375866815818121217",
+              "score": 0.0022940636077394927
+            },
+            {
+              "node_id": "2148827317",
+              "score": 0.00213109312708162
+            },
+            {
+              "node_id": "423671266",
+              "score": 0.00213109312708162
+            }
+          ]
+        },
+        "posts": {
+          "node_count": 2051,
+          "edge_count": 1895,
+          "weighted_interaction_count": 2303,
+          "density": 0.0004507022154570644,
+          "isolated_node_count": 1763,
+          "weak_component_count": 1839,
+          "largest_weak_component": 78,
+          "strong_component_count": 1952,
+          "largest_strong_component": 76,
+          "degree_mean": 1.847879083373964,
+          "degree_median": 0,
+          "degree_max": 84,
+          "top_pagerank": [
+            {
+              "node_id": "2112917709717684415",
+              "score": 0.0043791069618734045
+            },
+            {
+              "node_id": "2112908342037225687",
+              "score": 0.003893202330568487
+            },
+            {
+              "node_id": "2113691926461637117",
+              "score": 0.0036675473785909686
+            },
+            {
+              "node_id": "2113696031384719774",
+              "score": 0.003505272469923181
+            },
+            {
+              "node_id": "2113573650423050514",
+              "score": 0.003430386476200214
+            },
+            {
+              "node_id": "2114064906056331436",
+              "score": 0.0033915483770252234
+            },
+            {
+              "node_id": "2113000544448942189",
+              "score": 0.00337914127516035
+            },
+            {
+              "node_id": "2113000594663190660",
+              "score": 0.00337914127516035
+            },
+            {
+              "node_id": "2114791121943400466",
+              "score": 0.0033617786213688177
+            },
+            {
+              "node_id": "2114785318679539773",
+              "score": 0.0033498207533235965
+            }
+          ]
+        }
+      }
+    },
+    "sport": {
+      "post_count": 572,
+      "author_count": 300,
+      "hashtag_count": 148,
+      "interaction_coverage": {
+        "reply_references": 138,
+        "quote_references": 42,
+        "repost_references": 0,
+        "missing_reply_targets": 121,
+        "missing_quote_targets": 33,
+        "missing_repost_targets": 0
+      },
+      "variants": {
+        "heterogeneous": {
+          "node_count": 1020,
+          "edge_count": 977,
+          "weighted_interaction_count": 977,
+          "density": 0.0009399834516731128,
+          "isolated_node_count": 0,
+          "weak_component_count": 240,
+          "largest_weak_component": 374,
+          "strong_component_count": 1020,
+          "largest_strong_component": 1,
+          "degree_mean": 1.915686274509804,
+          "degree_median": 1.0,
+          "degree_max": 97,
+          "top_pagerank": [
+            {
+              "node_id": "hashtag:ekstraklasa",
+              "score": 0.025428255088571324
+            },
+            {
+              "node_id": "hashtag:pograd",
+              "score": 0.011642808617594692
+            },
+            {
+              "node_id": "hashtag:widgór",
+              "score": 0.011166681595478744
+            },
+            {
+              "node_id": "hashtag:wisrcz",
+              "score": 0.009313130604000854
+            },
+            {
+              "node_id": "hashtag:motzag",
+              "score": 0.008226665503284086
+            },
+            {
+              "node_id": "hashtag:korgks",
+              "score": 0.007039483417797232
+            },
+            {
+              "node_id": "hashtag:piacra",
+              "score": 0.0048275058144464505
+            },
+            {
+              "node_id": "hashtag:leglpo",
+              "score": 0.004283417160259643
+            },
+            {
+              "node_id": "hashtag:tanieczgwiazdami",
+              "score": 0.0029684725201372954
+            },
+            {
+              "node_id": "hashtag:wislakrakow",
+              "score": 0.002696763421054045
+            }
+          ]
+        },
+        "users": {
+          "node_count": 300,
+          "edge_count": 13,
+          "weighted_interaction_count": 13,
+          "density": 0.00014492753623188405,
+          "isolated_node_count": 278,
+          "weak_component_count": 288,
+          "largest_weak_component": 4,
+          "strong_component_count": 299,
+          "largest_strong_component": 2,
+          "degree_mean": 0.08666666666666667,
+          "degree_median": 0.0,
+          "degree_max": 4,
+          "top_pagerank": [
+            {
+              "node_id": "2415691112",
+              "score": 0.013374076465150136
+            },
+            {
+              "node_id": "1146038683474284544",
+              "score": 0.008827407736103958
+            },
+            {
+              "node_id": "1851663195569836032",
+              "score": 0.008827407736103958
+            },
+            {
+              "node_id": "1156264053813207041",
+              "score": 0.005884424860042643
+            },
+            {
+              "node_id": "1492134036264955904",
+              "score": 0.005884424860042643
+            },
+            {
+              "node_id": "1498301870389055492",
+              "score": 0.005884424860042643
+            },
+            {
+              "node_id": "1705970473333407744",
+              "score": 0.005884424860042643
+            },
+            {
+              "node_id": "1760747994909995008",
+              "score": 0.005884424860042643
+            },
+            {
+              "node_id": "1935270307",
+              "score": 0.005884424860042643
+            },
+            {
+              "node_id": "2387703564",
+              "score": 0.005884424860042643
+            }
+          ]
+        },
+        "posts": {
+          "node_count": 572,
+          "edge_count": 6284,
+          "weighted_interaction_count": 6690,
+          "density": 0.01923995444135549,
+          "isolated_node_count": 378,
+          "weak_component_count": 399,
+          "largest_weak_component": 151,
+          "strong_component_count": 417,
+          "largest_strong_component": 150,
+          "degree_mean": 21.972027972027973,
+          "degree_median": 0.0,
+          "degree_max": 190,
+          "top_pagerank": [
+            {
+              "node_id": "2114099478596645367",
+              "score": 0.009814629881361045
+            },
+            {
+              "node_id": "2113733684637626557",
+              "score": 0.009520040998774884
+            },
+            {
+              "node_id": "2114035470812278981",
+              "score": 0.008358078313112543
+            },
+            {
+              "node_id": "2114019571309105366",
+              "score": 0.00835807831311254
+            },
+            {
+              "node_id": "2113697137246802220",
+              "score": 0.007944634085211559
+            },
+            {
+              "node_id": "2113710537540591829",
+              "score": 0.007944634085211559
+            },
+            {
+              "node_id": "2113728418248638932",
+              "score": 0.007944634085211559
+            },
+            {
+              "node_id": "2113665650535108916",
+              "score": 0.007494468701540333
+            },
+            {
+              "node_id": "2113691296606904479",
+              "score": 0.007494468701540333
+            },
+            {
+              "node_id": "2113968413982822735",
+              "score": 0.007380016771706225
+            }
+          ]
+        }
+      }
+    },
+    "pop_culture": {
+      "post_count": 185,
+      "author_count": 68,
+      "hashtag_count": 15,
+      "interaction_coverage": {
+        "reply_references": 132,
+        "quote_references": 9,
+        "repost_references": 0,
+        "missing_reply_targets": 127,
+        "missing_quote_targets": 7,
+        "missing_repost_targets": 0
+      },
+      "variants": {
+        "heterogeneous": {
+          "node_count": 268,
+          "edge_count": 219,
+          "weighted_interaction_count": 219,
+          "density": 0.0030605399966459838,
+          "isolated_node_count": 0,
+          "weak_component_count": 60,
+          "largest_weak_component": 106,
+          "strong_component_count": 268,
+          "largest_strong_component": 1,
+          "degree_mean": 1.6343283582089552,
+          "degree_median": 1.0,
+          "degree_max": 104,
+          "top_pagerank": [
+            {
+              "node_id": "post:2113916590588596501",
+              "score": 0.009719896278668929
+            },
+            {
+              "node_id": "post:2113928557059617196",
+              "score": 0.009719896278668929
+            },
+            {
+              "node_id": "post:2114770714683126200",
+              "score": 0.009719896278668929
+            },
+            {
+              "node_id": "hashtag:famemma",
+              "score": 0.008794058403371085
+            },
+            {
+              "node_id": "hashtag:primemma",
+              "score": 0.008794058403371085
+            },
+            {
+              "node_id": "post:2115068027196625171",
+              "score": 0.008110354916760485
+            },
+            {
+              "node_id": "hashtag:sylwesterwardęga",
+              "score": 0.007487185027321699
+            },
+            {
+              "node_id": "hashtag:wardęga",
+              "score": 0.007487185027321699
+            },
+            {
+              "node_id": "post:2113980441313108214",
+              "score": 0.007487185027321698
+            },
+            {
+              "node_id": "hashtag:rozkminka",
+              "score": 0.007342101163222508
+            }
+          ]
+        },
+        "users": {
+          "node_count": 68,
+          "edge_count": 4,
+          "weighted_interaction_count": 4,
+          "density": 0.000877963125548727,
+          "isolated_node_count": 60,
+          "weak_component_count": 64,
+          "largest_weak_component": 2,
+          "strong_component_count": 68,
+          "largest_strong_component": 1,
+          "degree_mean": 0.11764705882352941,
+          "degree_median": 0.0,
+          "degree_max": 1,
+          "top_pagerank": [
+            {
+              "node_id": "2053406623624802306",
+              "score": 0.025910294117647073
+            },
+            {
+              "node_id": "2097774916854599689",
+              "score": 0.025910294117647073
+            },
+            {
+              "node_id": "2613413108",
+              "score": 0.025910294117647073
+            },
+            {
+              "node_id": "762012923493511168",
+              "score": 0.025910294117647073
+            },
+            {
+              "node_id": "1028180844",
+              "score": 0.014005606617647076
+            },
+            {
+              "node_id": "1106393119409557504",
+              "score": 0.014005606617647076
+            },
+            {
+              "node_id": "1122631097173590016",
+              "score": 0.014005606617647076
+            },
+            {
+              "node_id": "113385673",
+              "score": 0.014005606617647076
+            },
+            {
+              "node_id": "1189466432",
+              "score": 0.014005606617647076
+            },
+            {
+              "node_id": "1202563115386310656",
+              "score": 0.014005606617647076
+            }
+          ]
+        },
+        "posts": {
+          "node_count": 185,
+          "edge_count": 23,
+          "weighted_interaction_count": 39,
+          "density": 0.0006756756756756757,
+          "isolated_node_count": 162,
+          "weak_component_count": 172,
+          "largest_weak_component": 3,
+          "strong_component_count": 179,
+          "largest_strong_component": 3,
+          "degree_mean": 0.24864864864864866,
+          "degree_median": 0,
+          "degree_max": 4,
+          "top_pagerank": [
+            {
+              "node_id": "2114038672060551645",
+              "score": 0.04014299291768119
+            },
+            {
+              "node_id": "2113293012373569698",
+              "score": 0.027513751835855502
+            },
+            {
+              "node_id": "2113342760237273420",
+              "score": 0.027513751835855502
+            },
+            {
+              "node_id": "2113352041515106539",
+              "score": 0.027513751835855502
+            },
+            {
+              "node_id": "2113352849119928413",
+              "score": 0.027513751835855502
+            },
+            {
+              "node_id": "2114476270704558348",
+              "score": 0.027513751835855502
+            },
+            {
+              "node_id": "2114653350545498556",
+              "score": 0.027513751835855502
+            },
+            {
+              "node_id": "2113555944101511617",
+              "score": 0.021199131294942667
+            },
+            {
+              "node_id": "2113727814276878380",
+              "score": 0.021199131294942667
+            },
+            {
+              "node_id": "2113916590588596501",
+              "score": 0.007650246469254377
+            }
+          ]
+        }
+      }
+    }
+  }
+}

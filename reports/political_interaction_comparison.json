@@ -1,0 +1,27 @@
+{
+  "total_political_posts": 2051,
+  "flagged_found": 52,
+  "flagged_missing": 0,
+  "groups": {
+    "flagged": {
+      "total": 52,
+      "reply_count": 44,
+      "reply_pct": 84.62,
+      "quote_count": 1,
+      "quote_pct": 1.92,
+      "other_count": 7,
+      "other_pct": 13.46,
+      "both_reply_and_quote": 0
+    },
+    "other": {
+      "total": 1999,
+      "reply_count": 988,
+      "reply_pct": 49.42,
+      "quote_count": 204,
+      "quote_pct": 10.21,
+      "other_count": 816,
+      "other_pct": 40.82,
+      "both_reply_and_quote": 9
+    }
+  }
+}

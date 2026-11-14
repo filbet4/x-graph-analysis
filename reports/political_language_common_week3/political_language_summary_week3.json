@@ -1,0 +1,16 @@
+{
+  "political_posts": 2002,
+  "flagged_for_manual_review": 51,
+  "flagged_share_pct": 2.55,
+  "category_occurrences": {
+    "profanity": 30,
+    "direct_insult": 21
+  },
+  "method": "Conservative regex keyword screening; multiple categories per post possible",
+  "limitations": [
+    "Flags are not hate-speech labels; context and target of speech require manual review",
+    "The lexicon has not been validated; both false positives and false negatives are expected",
+    "Political domain is based on sampling query, not verified topic classification",
+    "Data are sampled posts, not the full X population"
+  ]
+}

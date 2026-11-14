@@ -1,0 +1,22 @@
+{
+  "source": "data\\scweet_4weeks_merged.json",
+  "graph_type": "directed_post_interactions",
+  "included_relationships": [
+    "REPLY",
+    "QUOTE"
+  ],
+  "nodes": 14241,
+  "edges": 807,
+  "edges_by_type": {
+    "reply": 633,
+    "quote": 174
+  },
+  "isolated_nodes": 12934,
+  "weak_components": 13434,
+  "largest_weak_component": 16,
+  "strong_components": 14241,
+  "largest_strong_component": 1,
+  "density": 3.979450060712502e-06,
+  "max_in_degree": 14,
+  "max_out_degree": 2
+}

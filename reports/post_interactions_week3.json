@@ -1,0 +1,22 @@
+{
+  "source": "data\\scweet_large_sample_2026-10-21_2026-10-27.json",
+  "graph_type": "directed_post_interactions",
+  "included_relationships": [
+    "REPLY",
+    "QUOTE"
+  ],
+  "nodes": 2808,
+  "edges": 146,
+  "edges_by_type": {
+    "reply": 107,
+    "quote": 39
+  },
+  "isolated_nodes": 2562,
+  "weak_components": 2662,
+  "largest_weak_component": 10,
+  "strong_components": 2808,
+  "largest_strong_component": 1,
+  "density": 1.8523085854756676e-05,
+  "max_in_degree": 9,
+  "max_out_degree": 1
+}

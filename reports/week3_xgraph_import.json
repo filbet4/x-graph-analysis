@@ -1,0 +1,159 @@
+{
+  "database": "xgraph",
+  "mode": "execute",
+  "source": {
+    "source_posts": 2808,
+    "source_authors": 1568,
+    "source_hashtags": 331,
+    "source_relationships": {
+      "QUOTE": 260,
+      "REPLY": 1314
+    },
+    "mapping_errors": 0,
+    "relationship_targets_may_be_existing_posts": 1428
+  },
+  "before": {
+    "status": "ok",
+    "node_counts": {
+      "Hashtag": 614,
+      "Post": 9597,
+      "User": 4567
+    },
+    "relationship_counts": {
+      "AUTHORED": 9597,
+      "HAS_HASHTAG": 1579,
+      "QUOTE": 502,
+      "REPLY": 3327
+    },
+    "existing_week3_posts": 0,
+    "existing_week3_users": 631,
+    "existing_week3_hashtags": 122,
+    "existing_week3_relationships": {},
+    "relationship_target_status": {
+      "QUOTE": {
+        "requested": 260,
+        "target_exists": 5
+      },
+      "REPLY": {
+        "requested": 1314,
+        "target_exists": 7
+      }
+    },
+    "constraints": [
+      {
+        "name": "hashtag_normalized_text_unique",
+        "type": "NODE_PROPERTY_UNIQUENESS",
+        "entityType": "NODE",
+        "labelsOrTypes": [
+          "Hashtag"
+        ],
+        "properties": [
+          "normalized_text"
+        ]
+      },
+      {
+        "name": "post_id_unique",
+        "type": "NODE_PROPERTY_UNIQUENESS",
+        "entityType": "NODE",
+        "labelsOrTypes": [
+          "Post"
+        ],
+        "properties": [
+          "post_id"
+        ]
+      },
+      {
+        "name": "user_id_unique",
+        "type": "NODE_PROPERTY_UNIQUENESS",
+        "entityType": "NODE",
+        "labelsOrTypes": [
+          "User"
+        ],
+        "properties": [
+          "user_id"
+        ]
+      }
+    ],
+    "error": null
+  },
+  "after": {
+    "status": "ok",
+    "node_counts": {
+      "Hashtag": 823,
+      "Post": 12405,
+      "User": 5504
+    },
+    "relationship_counts": {
+      "AUTHORED": 12405,
+      "HAS_HASHTAG": 2352,
+      "QUOTE": 546,
+      "REPLY": 3441
+    },
+    "existing_week3_posts": 2808,
+    "existing_week3_users": 1568,
+    "existing_week3_hashtags": 331,
+    "existing_week3_relationships": {
+      "QUOTE": 44,
+      "REPLY": 114
+    },
+    "relationship_target_status": {
+      "QUOTE": {
+        "requested": 260,
+        "target_exists": 44
+      },
+      "REPLY": {
+        "requested": 1314,
+        "target_exists": 114
+      }
+    },
+    "constraints": [
+      {
+        "name": "hashtag_normalized_text_unique",
+        "type": "NODE_PROPERTY_UNIQUENESS",
+        "entityType": "NODE",
+        "labelsOrTypes": [
+          "Hashtag"
+        ],
+        "properties": [
+          "normalized_text"
+        ]
+      },
+      {
+        "name": "post_id_unique",
+        "type": "NODE_PROPERTY_UNIQUENESS",
+        "entityType": "NODE",
+        "labelsOrTypes": [
+          "Post"
+        ],
+        "properties": [
+          "post_id"
+        ]
+      },
+      {
+        "name": "user_id_unique",
+        "type": "NODE_PROPERTY_UNIQUENESS",
+        "entityType": "NODE",
+        "labelsOrTypes": [
+          "User"
+        ],
+        "properties": [
+          "user_id"
+        ]
+      }
+    ],
+    "error": null
+  },
+  "delta": {
+    "nodes": {
+      "Hashtag": 209,
+      "Post": 2808,
+      "User": 937
+    },
+    "relationships": {
+      "AUTHORED": 2808,
+      "HAS_HASHTAG": 773,
+      "QUOTE": 44,
+      "REPLY": 114
+    }
+  }
+}

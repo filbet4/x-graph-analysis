@@ -40,3 +40,4 @@ data/processed/
 reports/generated/
 
 # TODO: Add project-specific generated artifacts as the pipeline grows.
+scweet_latest/

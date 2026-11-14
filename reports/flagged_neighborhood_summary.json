@@ -1,0 +1,54 @@
+{
+  "total_posts": 13885,
+  "total_edges": 5362,
+  "flagged_found": 52,
+  "flagged_missing": 0,
+  "incident_edges": 45,
+  "internal_flagged_edges": 0,
+  "flagged_posts_with_connections": 45,
+  "distinct_neighbor_posts": 44,
+  "flagged_authors_with_id": 45,
+  "flagged_author_total_posts": 469,
+  "top_flagged_author_activity": [
+    [
+      "1577051599393984514",
+      89
+    ],
+    [
+      "1703875144878260225",
+      72
+    ],
+    [
+      "1345659084981284865",
+      65
+    ],
+    [
+      "86824383",
+      41
+    ],
+    [
+      "1632110540758695937",
+      39
+    ],
+    [
+      "1375529723661590538",
+      28
+    ],
+    [
+      "2714800038",
+      24
+    ],
+    [
+      "1550121901267177483",
+      22
+    ],
+    [
+      "1867963368298156032",
+      18
+    ],
+    [
+      "3124256398",
+      10
+    ]
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "post_count": 2964,
+  "account_count": 1628,
+  "accounts_with_creation_date": 1599,
+  "accounts_with_at_least_5_posts": 67,
+  "accounts_with_exact_duplicate_texts": 23,
+  "methodology": {
+    "observation": "Only posts captured in this weekly sampling corpus, not complete account timelines.",
+    "duplicate_definition": "Exact match after casefolding, URL removal, mention removal, and whitespace normalization; texts shorter than 20 characters excluded.",
+    "time_window": "Publication timestamps of captured posts; no verified 24-hour engagement snapshots.",
+    "interpretation": "Exploratory behavioral indicators, not bot identification or a probability of automation.",
+    "limitations": "Sampling bias, incomplete account timelines, cross-posting, news syndication, missing account metadata."
+  }
+}
